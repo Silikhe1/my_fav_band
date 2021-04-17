@@ -13,15 +13,16 @@ body{
     padding:  0 0 0 50px;
     color: #fff;
     font-weight: bold;
-    width: 25%;
+    width: 20%;
     background-color: #080618;
 }
 
 .left-header h4{
+    letter-spacing: 8px;
     padding: 0 0 40px 25px;
     font-weight: bold;
-    color: #565596;
-    font-size: 40px;
+    /* color: #565596; */
+    font-size: 35px;
     background: -webkit-linear-gradient(#F94141, #4D4E8F);
     -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
@@ -45,6 +46,12 @@ body{
     text-decoration: none;
 }
 
+
+.left-header ul li a :hover{
+    color: #F94141;
+}
+
+
 .social{
     padding: 0;
     margin: 50px 0 0 0;
@@ -52,7 +59,7 @@ body{
 }
 
 .social-word{
-    margin: 30px 0 0 0px;
+    margin: 55px 0 0 0px;
 }
 
 
@@ -62,11 +69,29 @@ body{
     font-size: 20px;
 }
 
+
 .social img {
-    width: 40px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.social .youtube {
+    width: 30px;
+    height: 30px;
 }
 
 .icons{
     padding: 0 0 0 0 ;
+}
+
+/* header right */
+
+.right-header{
+    width: 100%;
+    background-image: url("photographer.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
