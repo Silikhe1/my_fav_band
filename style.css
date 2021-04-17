@@ -125,7 +125,19 @@ body{
 
 .aboutus{
     display: flex;
-    
-    padding: 60px 60px 60px 0px;
+    padding: 100px 100px 60px 0px;
     background-color: #080618;
+}
+
+.about{
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #C9C9E3;
+    font-weight: 100;
+    padding: 100px;
+}
+
+.about h1{
+    color: rgb(201, 201, 227);
+    font-size: 48px;
 }
