@@ -1,4 +1,5 @@
 body{
+    font-family: Montserrat, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,19 +9,22 @@ body{
 }
 
 .left-header{
-    font-family: Montserrat, sans-serif;
+    /* font-family: Montserrat, sans-serif; */
     padding:  0 0 0 50px;
     color: #fff;
     font-weight: bold;
     width: 25%;
-    background-color: #0C0A20;
+    background-color: #080618;
 }
 
-.left-header p{
-    font-size: 18px;
+.left-header h4{
+    padding: 0 0 40px 25px;
     font-weight: bold;
     color: #565596;
-    font-size: 30px;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#F94141, #4D4E8F);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
 }
 
 .pages{
@@ -33,7 +37,7 @@ body{
 }
 
 .left-header ul li{
-    padding: 0 0 25px 0;
+    padding: 0 0 30px 0;
 }
 
 .left-header ul li a{
@@ -41,8 +45,28 @@ body{
     text-decoration: none;
 }
 
+.social{
+    padding: 0;
+    margin: 50px 0 0 0;
+    display: flex;
+}
 
+.social-word{
+    margin: 30px 0 0 0px;
+}
+
+
+.social p{
+    transform: rotate(-90deg);
+    color: #C9C9E3;
+    font-size: 20px;
+}
 
 .social img {
-    width: 20px;
+    width: 40px;
+    height: 20px;
+}
+
+.icons{
+    padding: 0 0 0 0 ;
 }
