@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+}
+
+.left-header{
+    width: 30%;
+    background-color: #080618;
+}
