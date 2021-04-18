@@ -91,7 +91,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* filter: brightness(70%); */
 
 }
 
@@ -100,12 +99,10 @@ body{
 }
 
 .right-section h1{
-    /* display: inline; */
     background-color: rgba(78, 79, 144, .8  );
     color: rgb(201, 201, 227);
     padding: 10px;
-    width: 70%;
-    /* margin-right: 150px; */
+    width: 66%;
     letter-spacing: 2px;
     font-size: 60px;
     margin-bottom: 100px;
@@ -231,7 +228,7 @@ body{
 .music{
     /* display: flex; */
     background-color: #080618;
-    padding: 100px 250px;
+    padding: 30px 250px;
 }
 
 .music h1{
