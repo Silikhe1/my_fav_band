@@ -1,12 +1,12 @@
-# {Application Name}
+# Favourite Band
 
-#### {Brief description of application}, {Date of current version}
+#### A website for my favourite band Sautisol, April, 2021
 
 #### By **Silas Silikhe**
 
 ## Description
 
-{This is a detailed description of your application, including its purpose and usage. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+This is a website of sautisol's showing more about what they do. Shows more about what they do. List of their album and musics.
 
 ## Setup/Installation Requirements
 
@@ -28,5 +28,5 @@ silikhesilas@gmail.com on slack Silikhe
 
 ### License
 
-Read our [lincences](README.md)
-Copyright (c) 2021 **{List of contributors or company name}**
+Read our [lincences](./README.md)
+Copyright (c) 2021 **Silas Silikhe**
