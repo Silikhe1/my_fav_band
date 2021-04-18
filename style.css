@@ -268,7 +268,12 @@ audio{
     width: 100%;
     background: #736EE5;
     padding: 10px 0;
+    margin: 0;
     border: none !important;
+}
+
+.music-audio{
+    padding: 0 20px;
 }
 
 audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
