@@ -276,3 +276,18 @@ audio{
 audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     background-color: #736EE5;
 }
+
+
+#myVideo {
+    width: 750px;
+    height: 480px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    }
+    
+
+    .video{
+    padding: 100px 100px 60px 0px;
+    background-color: #080618;
+}
