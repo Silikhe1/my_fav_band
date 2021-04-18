@@ -140,7 +140,6 @@ body{
 }
 
 .artist{
-    /* height: 500px; */
     display: flex;
     background-color: #080618;
     padding: 20px 20px 100px 20px;
@@ -221,7 +220,7 @@ body{
 
 .art-name{
     color: #fff;
-    padding: 0 0 20px 70px;
+    padding: 0 0 20px 0px;
 }
 
 .art-task{
@@ -230,5 +229,16 @@ body{
 }
 
 .music{
-    display: flex;
+    /* display: flex; */
+    background-color: #080618;
+    padding: 100px 250px;
+}
+
+.music h1{
+    color: rgb(201, 201, 227);
+    font-size: 48px;
+}
+
+.music-section{
+  display: flex;
 }
