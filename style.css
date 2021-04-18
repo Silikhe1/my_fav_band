@@ -246,7 +246,7 @@ body{
 
 .music-cover{
     background-color: #1D193E;
-    display: flex;
+    /* display: flex; */
 }
 
 .cover{
@@ -263,3 +263,12 @@ body{
     width: 100%;
     padding: 0 40px;
 }
+
+audio {
+    /* filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%); */
+    width: 90%;
+    height: 80px;
+    background-color: #4D4E8F;
+    border: none;
+}
+
