@@ -241,4 +241,25 @@ body{
 
 .music-section{
   display: flex;
+  /* padding: 20px; */
+}
+
+.music-cover{
+    background-color: #1D193E;
+    display: flex;
+}
+
+.cover{
+ display: flex;
+ padding: 20px;
+}
+
+.cover img{
+    width: 28%;
+    height: 150px;
+}
+
+.cover .details{
+    width: 100%;
+    padding: 0 40px;
 }
