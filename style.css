@@ -219,10 +219,6 @@ body{
 
 }
 
-.names{
-    /* padding: 20px; */
-}
-
 .art-name{
     color: #fff;
     padding: 0 0 20px 70px;
@@ -230,8 +226,9 @@ body{
 
 .art-task{
     color: #C9C9E3;
-    /* padding: 0 20px; */
+    padding: 0 auto;
 }
-.bien{
 
+.music{
+    display: flex;
 }
