@@ -219,41 +219,41 @@ body{
 .bien{
     background: rgba(0, 0, 0, .7);
     height: 100%;
-    display: block;
+    opacity: 0;
 }
 
 .bien:hover{
-    display: none;
+    opacity: 1;
 }
 
 .savara{
     background: rgba(0, 0, 0, .7);
     height: 100%;
-    display: block;
+    opacity: 0;
 }
 
 .savara:hover{
-    display: none;
+    opacity: 1;
 }
 
 .poly{
     background: rgba(0, 0, 0, .7);
     height: 100%;
-    display: block;
+    opacity: 0;
 }
 
 .poly:hover{
-    display: none;
+    opacity: 1;
 }
 
 .chimano{
     background: rgba(0, 0, 0, .7);
     height: 100%;
-    display: block;
+    opacity: 0;
 }
 
 .chimano:hover{
-    display: none;
+    opacity: 1;
 }
 
 .art-name{
