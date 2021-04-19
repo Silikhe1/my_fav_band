@@ -8,7 +8,7 @@
 
 This is a website of sautisol's showing more about what they do. Shows more about what they do. List of their album and musics.
 
-![readme-image](https://user-images.githubusercontent.com/82449946/115249835-ae058980-a131-11eb-862a-c341483fdca3.png)
+![screenshot-silikhe1 github io-2021 04 19-20_32_11](https://user-images.githubusercontent.com/82449946/115278679-680aee80-a14e-11eb-960d-334a1eca3f28.png)
 
 ## Setup/Installation Requirements
 
