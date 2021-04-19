@@ -345,7 +345,8 @@ footer{
     padding: 20px;
     text-align: center;
     height: 70px;
-    background-color: #736EE5;
+    background: -webkit-linear-gradient(#080618, #6d02e5);
+
 
 }
 
@@ -370,10 +371,80 @@ video::-webkit-media-controls {
 
 .contacts{
     background-color: #080618;
-    padding: 30px 250px;
+    padding: 50px 250px;
 }
 
 .contact-sec{
+    /* padding: 20px; */
+    background-color: #6d02e5;
+    display: flex;
+}
+
+.input {
+    width: 85% !important;
+}
+
+.send{
+    background: linear-gradient(0.25turn, #F94141, #4D4E8F);
     padding: 20px;
-    background-color: #736EE5;
+    width: 15%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #080618;
+}
+
+
+.form__group {
+    position: relative;
+    padding: 15px 25px;
+    margin-top: 8px;
+    width: 90%;
+}
+.form__field {
+    width: 100%;
+    border: 0;
+    border-bottom: 3px solid #9193C6;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.form__field::placeholder {
+    color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+}
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight: 700;
+}
+
+.send:hover{
+    background:#F94141;
 }
