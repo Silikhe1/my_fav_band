@@ -45,7 +45,7 @@ body{
     text-decoration: none;
 }
 
-.icons li:hover{
+.icons   li:hover{
     transition: 0.5s;
     transform: rotateY(180deg);
     }
@@ -317,7 +317,7 @@ audio{
     padding: 0 20px;
 }
 
-audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+audio::-webkit-media-controls-panel{
     background-color: #736EE5;
 }
 
@@ -331,6 +331,8 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
  .video{
     padding: 100px 100px 60px 0px;
     background-color: #080618;
+    /* z-index: 1; */
+
 }
 
 .single-vid{
@@ -338,6 +340,7 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
 }
 
 .other-vid{
+    width: 20%;
     padding: 0px 20px;
     margin-left: 80px;
 }
@@ -363,3 +366,9 @@ footer a{
 footer a:hover{
     color: #080618;
 }
+
+video::-webkit-media-controls {
+    opacity: 0;
+  }
+  
+

@@ -18,11 +18,11 @@
                 <div class="left-header">
                     <h4 class="heading">Sauti Sol</h4>
                     <ul class="pages">
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Music</a></li>
-                        <li><a href="#">Video</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#music">Music</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#contact">Contacts</a></li>
                     </ul>
                     <div class="social">
                         <div class="social-word">
@@ -30,22 +30,23 @@
                         </div>
                         <ul class="icons">
                             <li>
-                                <a href="#">
+                                <a
+                                    href="https://twitter.com/sautisol?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
                                     <img class="twitter" src="./images/twitter.png" alt="">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="./images/face.png" alt="">
+                                <a href="https://www.facebook.com/SautiSol/">
+                                    <img class="twitter" src="./images/face.png" alt="">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://www.instagram.com/sautisol/">
                                     <img class="twitter" src="./images/inst.png" alt="">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://www.youtube.com/channel/UCBZPPYU_l99Mg6-GXm6xbMg">
                                     <img class="twitter" src="./images/youtube.png" alt="">
                                 </a>
                             </li>
@@ -60,7 +61,7 @@
                 </div>
             </div>
         </section>
-        <section class="aboutus">
+        <section id="about" class="aboutus">
             <div>
                 <img src="./images/hero.jpg" alt="">
             </div>
@@ -82,7 +83,7 @@
             </div>
             </div>
         </section>
-        <section class="artist">
+        <section id="team" class="artist">
             <div class="artist-word">
                 <p>Meet team</p>
             </div>
@@ -177,7 +178,7 @@
                 </div>
             </div>
         </section>
-        <section class="music">
+        <section id="music" class="music">
             <h1>Music</h1>
             <div class="music-section">
                 <div class="music-cover">
@@ -278,7 +279,7 @@
                 </div>
             </div>
         </section>
-        <section class="video">
+        <section id="video" class="video">
             <div class="about">
                 <h1>Videos</h1>
             </div>
@@ -294,21 +295,26 @@
                 </div>
                 <div class="other-vid">
                     <div style="margin-bottom: 20px;">
-                        <video controls="block" loop="" poster="./images/midnight.png"
-                            class="border-none rounded outline-none" src="./images/video/insecure.mp4" playsinline=""
-                            data-origwidth="0" data-origheight="0" style="width:450px; height:200px;"
-                            id="html5_video_ota5fwbtmgn">
+                        <video controls="false" autoplay loop="" poster="./images/cover2.jpg"
+                            src="./images/video/insecure.mp4" playsinline="" data-origwidth="0" data-origheight="0"
+                            style="width:450px; height:200px; object-fit:cover;" id="html5_video_ota5fwbtmgn">
+
                         </video>
                     </div>
-                    <div>
-                        <video controls="block" loop="" poster="./images/afri.png"
-                            class="border-none rounded outline-none" src="./images/video/insecure.mp4" playsinline=""
-                            data-origwidth="0" data-origheight="0" style="width:450px; height:200px;"
-                            id="html5_video_ota5fwbtmgn">
+                    <div class="video_poster">
+                        <video controls="false" autoplay loop="" poster="./images/cover.jpg"
+                            src="./images/video/insecure.mp4" playsinline="" data-origwidth="0" data-origheight="0"
+                            style="width:450px; height:200px; object-fit:cover;" id="html5_video_ota5fwbtmgn">
+
                         </video>
                     </div>
                 </div>
             </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div>
+                <input type="text" name="" id="">
             </div>
         </section>
     </main>
