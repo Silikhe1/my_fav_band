@@ -21,7 +21,8 @@ body{
     padding: 0 0 40px 25px;
     font-weight: bold;
     font-size: 35px;
-    background: -webkit-linear-gradient(#F94141, #4D4E8F);
+    /* background: -webkit-linear-gradient(#F94141, #4D4E8F); */
+    background: linear-gradient(0.25turn, #F94141, #4D4E8F);
     -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
 }
@@ -44,11 +45,9 @@ body{
     text-decoration: none;
 }
 
-
-.left-header ul li a :hover{
+.left-header ul li a:hover{
     color: #F94141;
 }
-
 
 .social{
     padding: 0;
@@ -60,13 +59,11 @@ body{
     margin: 55px 0 0 0px;
 }
 
-
 .social p{
     transform: rotate(-90deg);
     color: #9193C6;
     font-size: 20px;
 }
-
 
 .social img {
     width: 30px;
@@ -108,13 +105,18 @@ body{
     margin-bottom: 100px;
 }
 
-
 .right-section button{
     border: none;
     letter-spacing: 2px;
     font-size: 20px;
     font-weight: bold;
     padding: 12px 20px;
+    background: linear-gradient(0.25turn, #fff, #F94141);
+
+}
+
+.right-section button:hover{
+    background:#F94141;
 }
 
 .aboutus{
@@ -208,11 +210,20 @@ body{
 .bio{
     line-height: 23px;
     letter-spacing: 1px;
-    /* color: #C9C9E3; */
     font-weight: bold;
-    padding: 10px;
-    /* display: none; */
+    padding:40px 10px;
+    color: #C9C9E3;
+    text-align: center;
+}
 
+.bien{
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    display: block;
+}
+
+.bien:hover{
+    display: none;
 }
 
 .art-name{
@@ -226,7 +237,6 @@ body{
 }
 
 .music{
-    /* display: flex; */
     background-color: #080618;
     padding: 30px 250px;
 }
@@ -238,7 +248,6 @@ body{
 
 .music-section{
   display: flex;
-  /* padding: 20px; */
 }
 
 .music-cover{
@@ -277,17 +286,41 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     background-color: #736EE5;
 }
 
-
 #myVideo {
-    width: 750px;
-    height: 480px;
-    padding: 0;
+
+    padding: 0px;
     margin: 0;
     overflow: hidden;
-    }
+ }
     
-
-    .video{
+ .video{
     padding: 100px 100px 60px 0px;
     background-color: #080618;
+}
+
+.single-vid{
+    display: flex;
+}
+
+.other-vid{
+    padding: 0px 20px;
+    margin-left: 80px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    height: 70px;
+    background-color: #736EE5;
+
+}
+
+footer p{
+    color: #C9C9E3;
+    font-weight: 100;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
 }

@@ -89,9 +89,11 @@
             <div class="artist-container">
                 <div class="artist-content">
                     <div class="artist-bien">
-                        <div class="bio">
-                            <p>Bien-Aime (French for beloved) Baraza is a vocalist, songwriter and guitarist. </p>
-                            <p>His style of singing is soulful and his songwriting skills celebrated by many.</p>
+                        <div class="bien">
+                            <div class="bio">
+                                <p>Bien-Aime (French for beloved) Baraza is a vocalist, songwriter and guitarist. </p>
+                                <p>His style of singing is soulful and his songwriting skills celebrated by many.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="names">
@@ -272,32 +274,41 @@
             <div class="about">
                 <h1>Videos</h1>
             </div>
-            <div class="aboutus">
-                <div>
+            <div class="single-vid">
+                <div style="width: 50%;">
                     <div class="">
-                        <video id="myVideo" loop muted autoplay poster="">
+                        <video id="myVideo" loop muted autoplay poster="" style="width:100%; height:100%;">
                             <source src="./images/video/insecure.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
                             <source src="./images/video/insecure.mp4" type="video/ogg">
 
                         </video>
                     </div>
                 </div>
-                <div class="">
-                    <video controls poster="/images/sauti.jpg">
-                        <source src="movie.mp4" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
-                    </video>
-                    <video controls poster="/images/w3html5.gif">
-                        <source src="movie.mp4" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
-                        Your browser does not support the video tag.
-                    </video>
+                <div class="other-vid">
+                    <div style="margin-bottom: 20px;">
+                        <video controls="block" loop="" poster="./images/midnight.png"
+                            class="border-none rounded outline-none" src="./images/video/insecure.mp4" playsinline=""
+                            data-origwidth="0" data-origheight="0" style="width:450px; height:200px;"
+                            id="html5_video_ota5fwbtmgn">
+                        </video>
+                    </div>
+                    <div>
+                        <video controls="block" loop="" poster="./images/afri.png"
+                            class="border-none rounded outline-none" src="./images/video/insecure.mp4" playsinline=""
+                            data-origwidth="0" data-origheight="0" style="width:450px; height:200px;"
+                            id="html5_video_ota5fwbtmgn">
+                        </video>
+                    </div>
                 </div>
             </div>
             </div>
         </section>
     </main>
+    <footer>
+        <em>
+            <p>©2021 <a href="https://silsilas.github.io/portf/">Silikhe</a>. All rights reserved. Made with Love</p>
+        </em>
+    </footer>
 </body>
 
 </html>
