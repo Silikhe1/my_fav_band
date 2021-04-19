@@ -226,6 +226,36 @@ body{
     display: none;
 }
 
+.savara{
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    display: block;
+}
+
+.savara:hover{
+    display: none;
+}
+
+.poly{
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    display: block;
+}
+
+.poly:hover{
+    display: none;
+}
+
+.chimano{
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    display: block;
+}
+
+.chimano:hover{
+    display: none;
+}
+
 .art-name{
     color: #fff;
     padding: 0 0 20px 0px;
@@ -323,4 +353,8 @@ footer p{
 footer a{
     text-decoration: none;
     color: #fff;
+}
+
+footer a:hover{
+    color: #080618;
 }
