@@ -345,9 +345,7 @@ footer{
     padding: 20px;
     text-align: center;
     height: 70px;
-    background: -webkit-linear-gradient(#080618, #6d02e5);
-
-
+    background: linear-gradient(0.25turn, #4D4E8F, #F94141);
 }
 
 footer p{
