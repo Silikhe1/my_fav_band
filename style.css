@@ -317,7 +317,8 @@ audio{
 }
 
 audio::-webkit-media-controls-panel{
-    background-color: #736EE5;
+    background-color: #6d02e5;
+    border: none !important;
 }
 
 #myVideo {
@@ -454,3 +455,19 @@ video::-webkit-media-controls {
      width: 50px;
     height: 50px;
 }
+
+  
+audio::-webkit-media-controls-timeline {
+    opacity: 0 !important;
+}
+  
+  audio::-webkit-media-controls-current-time-display {
+      font-size: 20px;
+      font-weight: lighter;
+      color: #C9C9E3;
+      display: block;
+  }
+   
+  audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+  }
