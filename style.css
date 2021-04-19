@@ -45,6 +45,11 @@ body{
     text-decoration: none;
 }
 
+.icons li:hover{
+    transition: 0.5s;
+    transform: rotateY(180deg);
+    }
+
 .left-header ul li a:hover{
     color: #F94141;
 }
